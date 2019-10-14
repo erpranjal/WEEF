@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="402dp"
+        android:background="@drawable/border"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_marginBottom="679dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pic1" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="50dp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/avenirr"
+        android:text="On November 13th through 16th, 2019, Chennai,India will be the host city of WEEF-IESS 2019, the joint annual summit of the International Federation of Engineering Education Societies.\n
+This prestigious event, held for the first time in India, features the IX World Engineering Education Forum (WEEF) and the International Engineering Student Summit. This is the largest engineering education gathering in the world and brings together a large number of stakeholders, including engineering educators, leaders, students, industry, governmental organizations, non-governmental organizations, etc., to learn, share, and build fruitful and long-term collaborations. The conference theme is Disruptive Engineering Education for sustainable development.\n
+Vellore Institute of Technology, Chennai, will host the combined WEEF-IESS."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
